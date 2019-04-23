@@ -15,9 +15,8 @@ while true
   puts"5.'%'"
   puts"6.Exit"
   p = gets.chomp.to_i
-
+  
   case p
-
   when 1
     add =  a + b 
     puts"The Addition of #{a}+#{b} = #{add}"
