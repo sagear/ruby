@@ -1,3 +1,5 @@
+# Guessing a word  
+
 secret_word = "welcome"
 guess_word = ""
 guess_count = 0
