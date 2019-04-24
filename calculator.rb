@@ -14,7 +14,6 @@ while true
   puts"5.'%'"
   puts"6.Exit"
   p = gets.chomp.to_i
-
   case p
   when 1
     add =  a + b 
@@ -37,4 +36,8 @@ while true
   else 
     puts"Please select correct operation"
   end 
+<<<<<<< HEAD
 end
+=======
+end
+>>>>>>> 24b551142d781d3df87f5db3f152ad89c33895e0
