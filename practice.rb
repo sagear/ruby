@@ -1,10 +1,12 @@
+class Book 
+  attr_accessor :title, :author, :pages
+  def initialize(title,author,pages)
+    @title = title
+    @author = author
+    @pages = pages
+  end
 
-puts "please enter your name".upcase()
-name = gets.chomp.upcase
-puts 'enter your age'
-age = gets.chomp.to_i
-puts ("your name is " +name)
-puts("your age is " +age.to_s)
+end
 
-puts 3*777
-puts 344+3424
+book1 = Book.new("harry porter","sagar","333")
+puts book1.title

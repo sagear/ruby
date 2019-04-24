@@ -1,22 +1,21 @@
 #calculator program
 puts"**Welcome**"
+
 while true
-
-  puts"Enter the value of a:"
+  puts"Enter the first Number:"
   a = gets.chomp.to_f
-  puts"Enter the value of b:"
+  puts"Enter the Second:"
   b = gets.chomp.to_f 
-
-  puts"Please select your operation!"
+  puts"Please select your operation ?"
   puts"1.'+'"
   puts"2.'-'"
   puts"3.'*'"
   puts"4.'/'"
   puts"5.'%'"
+  puts"6.Exit"
   p = gets.chomp.to_i
 
   case p
-
   when 1
     add =  a + b 
     puts"The Addition of #{a}+#{b} = #{add}"
@@ -32,6 +31,9 @@ while true
   when 5
     modulo = a%b 
     puts"The Modulo division of #{a}%#{b} = #{modulo}"
+  when 6
+    puts "Thank you !!!!"
+    break
   else 
     puts"Please select correct operation"
   end 
